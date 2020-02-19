@@ -1,0 +1,179 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    background-color: rgb(35,80,118);
+    width: 970px;
+}
+
+.text-size {
+    font-size: 14px;
+    margin-right: 10px;
+    text-align: right;
+    padding: 5px 40px 0;
+    color: rgb(255,255,255);
+}
+.yellow-text {
+    color: rgb(213,179,0);
+    font-size: 20px;
+}
+
+span.yellow-text {
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.black-line {
+    color: rgb(0, 0, 0);
+}
+
+img {
+    display: inline-block;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.search-bar {
+    display: inline-block;
+    background-color: rgb(68,68,68);
+    width: 24%;
+    vertical-align: top;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 5px;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+input[type=text] {
+    background-color: rgb(255,255,255);
+    text-align: center;
+    width: 60%;
+    height: 25px;
+    border: 2px solid rgb(165, 155, 155);
+    margin-right: 10px;
+}
+
+button {
+    color: rgb(255,255,255);
+    background-color: rgb(35,80,118);
+    border: 2 px solid rgb(156, 149, 149);
+    border-radius: 5px;
+    height: 25px;
+    padding: 5px 10px;
+    font-weight: 400;
+}
+
+.nav-bar {
+    background-color: rgb(68,125,173);
+    width: 85%;
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 18px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.links {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 30px 30px 30px 100px;
+}
+
+.links a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+}
+
+.description {
+    display: inline-block;
+    width: 70%;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+#the-zen {
+    font-size: 18px;
+}
+
+.description p {
+    text-align: center;
+    padding: 5px;
+    width: 90%;
+    font-size: 14px;
+}
+
+.description span {
+    font-style: italic;
+    text-align: center;
+    display: block;
+    color: rgb(213,179,0);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 3px;
+}
+
+.info {
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    padding-right: 20px;
+}
+
+.info div {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    vertical-align: top;
+    border-top:4px solid rgb(89, 138, 180);
+    margin: 10px 20px;
+    padding-top: 5px;
+}
+
+div > h3, div > p {
+    width: 80%;
+    align-items: left;
+}
+
+p > span {
+    color: rgb(132,178,217);
+    font-size: 12px;
+}
+
+.list {
+    display: list-item;
+    color: rgb(132,178,217);
+}
+.footer {
+    background-image: linear-gradient(to bottom, rgb(36,81,120), rgb(57, 131, 192));
+    padding: 50px 80px 10px 80px;
+    text-align: center;
+}
+
+.footer a{
+    display: inline-block;
+    width: 25%;
+    text-decoration: none;
+    color: rgb(132,182,226);
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+    color: rgb(132,182,226);
+    font-size: 10px;
+    padding-top: 15px;
+}

@@ -1,0 +1,209 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 970px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(228,228,228,1) 10%, rgba(255,255,255,1) 36%);
+}
+
+.container > h1,
+.container > img {
+    display: inline-block;
+}
+
+.container > img {
+    height: 100px;
+}
+
+.container > h1 {
+    vertical-align: top;
+    padding-top: 30px;
+    font-size: 40px;
+    color: rgb(71,71,71);
+}
+
+.top-side > p span,
+h1 span,
+h3 {
+    color: rgb(33,100,158);
+}
+
+h2 {
+    background: linear-gradient(to bottom, rgb(37, 108, 165), rgb(92, 149, 196), rgb(37,108,165));
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 15px;
+    margin-top: -27px;
+}
+
+h3 {
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.side-bar {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding: 20px 5px;
+}
+
+.top-side {
+    border-bottom: 1px solid rgb(154,154,154);
+    padding-bottom: 20px;
+}
+
+#red {
+    color: rgb(217,40,34);
+}
+
+.top-side > p,
+.top-side > p span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.top-side > p {
+    padding-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.blue-button,
+.orange-button,
+.turquese-button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgb(128, 128, 128) 1px 1px;
+}
+
+.blue-button {
+    background: linear-gradient(to bottom, rgb(92, 149, 196), rgb(37,108,165));
+}
+
+.orange-button {
+    background: linear-gradient(to bottom, rgb(237,183,108), rgb(229,118,0));
+}
+
+.bottom-side {
+    background-image: url("images/ad_background.png");
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+
+.bottom-side p {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.bottom-side img {
+    display: block;
+    width: 40%;
+}
+
+.turquese-button {
+    background: linear-gradient(to bottom, rgb(162, 229, 240), rgb(51, 190, 214));
+    margin: 10px,;
+}
+
+.main-content {
+    align-self: right;
+    display: inline-block;
+    width: 74%;
+    margin-left: 40px;
+}
+
+.contact-bar {
+    border-bottom: 1px solid rgb(154,154,154);
+    padding-bottom: 15px;
+}
+
+.contact-bar > img,
+.contact-bar > p {
+    display: inline-block;
+    color: rgb(33,100,158);
+    padding-top: 15px;
+    vertical-align: top;
+}
+
+.contact-bar > img {
+    height: 15px;
+}
+
+.right-side-contact {
+    display: inline-block;
+    margin-left: 67%;
+}
+
+.right-side-contact > img {
+    height: 30px;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.right-side-contact > div {
+    display: inline-block;
+}
+
+.right-side-contact > div p {
+    text-align: center;
+    color: rgb(92,92,92);
+    font-size: 10px;
+}
+
+.right-side-contact > div span {
+    color: rgb(0,191,223);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main-content p,
+li {
+    font-size: 13px;
+}
+
+li {
+    margin: 2px 0 5px 30px;
+}
+
+.main-content > img {
+    display: block;
+    width: 30%;
+}
+
+.bottom-box {
+    padding-top: 10px;
+    border: 4px solid rgb(0,133,224);
+}
+
+.bottom-box h3, .bottom-box p {
+    padding-bottom: 3px;
+}
+
+.bottom-box img {
+    display: inline-block;
+    width: 15%;
+    margin: 10px;
+}
+
+.bottom-box div {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+}

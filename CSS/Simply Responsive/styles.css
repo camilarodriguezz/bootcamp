@@ -1,0 +1,59 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: rgb(170, 167, 167);
+    font-weight: 400;
+    padding: 10px;
+    margin: 5px;
+}
+
+p {
+    background-color: rgb(204,204,204);
+    padding: 10px;
+    margin: 5px;
+}
+
+p.yellow {
+    background-color: rgb(255,255,153);
+}
+
+span {
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+    .media {
+        width: 50%;
+        background-color: rgb(53, 189, 223);
+    }
+    .lg, .md {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .media {
+        width: 75%;
+        background-color: rgb(175, 114, 219);
+    }
+    .lg, .sm {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .media {
+        width: 100%;
+        background-color: lightcoral;
+    }
+    .lg {
+        display: block;
+    }
+    .md, .sm {
+        display: none;
+    }
+}

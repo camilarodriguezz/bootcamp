@@ -1,0 +1,174 @@
+/* General styles */
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1024px;
+    background-color: rgb(6,32,51);
+    padding: 20px 10px 5px;
+}
+
+/* Navagation bar styles */
+.nav-bar {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+h1 {
+    width: 35%;
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    display: inline-block;
+}
+
+h1 > span {
+    color: rgb(26,147,223);
+}
+
+div.nav-bar-links {
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+}
+
+.nav-bar-links > a {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a > span {
+    color: rgb(45,96,133);
+}
+
+/* Main content styles */
+.main-content {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0 20px;
+}
+
+.services-img {
+    width: 96%;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.top-sections {
+    padding: 0px 10px;
+}
+
+.more-info-sections {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    background-color: rgb(4, 69, 119);
+    display: inline-block;
+    width: 31%;
+}
+
+.more-info-sections > h2 {
+    vertical-align: top;
+    display: inline-block;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.more-info-sections > img {
+    margin: 15px 0px 0px 10px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+}
+
+.more-info-sections > p {
+    font-size: 14px;
+    padding: 0px 20px 40px;
+}
+
+.more-info-sections p > a {
+    font-size: 16px;
+    background: linear-gradient(to bottom, rgb(27, 129, 192), rgb(12, 83, 128), rgb(27, 129, 192));
+    padding: 10px 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.bottom-sections {
+    padding: 0 10px;
+}
+
+.bottom-left-section {
+    display: inline-block;
+    width: 64%;
+    margin: 0px 10px;
+}
+
+.bottom-left-section > h2, .bottom-right-section > h2 {
+    font-weight: 400;
+    margin: 30px 0 10px;
+}
+
+.bottom-left-section > img {
+    width: 50%;
+}
+
+.bottom-left-section > div {
+    display: inline-block;
+    width: 46%;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+.bottom-left-section > div p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.bottom-left-section a {
+    text-decoration: none;
+    color: rgb(58, 112, 151);
+    font-size: 18px;
+}
+
+.bottom-right-section {
+    vertical-align: top;
+    display: inline-block;
+    width: 31%;
+    margin: 0px 0px 0px 14px;
+}
+
+.bottom-right-section > p {
+    font-size: 13px;
+}
+
+#testimonial {
+    border: none;
+    font-size: 16px;
+    font-style: italic;
+    background-color: rgb(142, 185, 226);
+    padding: 25px 25px 50px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: rgb(142, 185, 226);
+}
+
+footer > a {
+    text-decoration: none;
+    color: rgb(25, 102, 175);
+    padding: 0 10px;
+    font-size: 14px;
+}
