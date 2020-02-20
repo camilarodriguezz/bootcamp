@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form>
+        <h2>My Registration Form</h2>
+        <label for="first_name">First Name: <input id="first_name" type="text"></label> <br>
+        <label for="last_name">Last Name: <input id="last_name" type="text"></label> <br>
+        <label for="email">Email: <input id="email" type="text"> </label><br>
+        <label for="password">Password: <input id="password" type="password"></label> <br>
+        <label for="pw_confirm">PW Confirmation: <input id="pw_confirm" type="password"></label> <br>
+        <label for="birthday">Birthday <input id="birthday" type="date"> </label> <br>
+        <label for="male"><input id="male" type="radio">Male</label>
+        <label for="female"><input id="female" type="radio">Female</label>
+        <label for="other"><input id="other" type="radio">Other</label> <br>
+        <p>A short description about yourself:</p>
+        <textarea name="description" cols="40" rows="5"></textarea><br>
+        <label for="favorite_language">Favorite Language:
+            <select id="favorite_language" name="favorite_language">
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="ruby">Ruby</option>
+            </select>
+        </label> <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
