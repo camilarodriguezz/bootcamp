@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninja To Cat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        div {
+            width: 1024px;
+            padding-top: 100px;
+        }
+
+        img {
+            display: block;
+            margin-top: -9px;
+            margin-bottom: -8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/cat0.png" alt="first part">
+            <img src="img/cat1.png" alt="second part">
+            <img src="img/cat2.png" alt="third part">
+            <img src="img/cat3.png" alt="fourth part">
+            <img src="img/cat4.png" alt="fifth part">
+    </div>
+
+    <script>
+        $('img').click(function () {
+            var string = $(this).attr('src');
+            var number = string[string.length - 5];
+            var myBoolean = string.includes('cat');
+            if (myBoolean == true) {
+                $(this).attr("src", 'img/ninja' + number + ".png");
+            } else {
+                $(this).attr("src", 'img/cat' + number + ".png");
+            }
+        });
+    </script>
+</body>
+
+</html>
